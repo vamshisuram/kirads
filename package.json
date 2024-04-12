@@ -1,8 +1,17 @@
 {
   "name": "kirads",
+  "author": {
+    "email": "vamshi.suram25@gmail.com",
+    "name": "Vamshi Suram",
+    "url": "https://codegully.com"
+  },
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "prepublishOnly": "yarn build",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
